@@ -1,0 +1,174 @@
+* {
+    font-family: 'lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color{
+    color: #050505;
+}
+
+.bg-secondary-color{
+    color: #7a7a7a;
+}
+
+/* navbar */
+
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover{
+    color: #7a7a7a;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1rem;
+}
+
+/* SLIDER */
+
+#slider {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+#slider .carousel-caption{
+    bottom: 3rem;
+}
+
+#slider .carousel-caption h5{
+    font-size: 2.5rem;
+    text-shadow: #000 2px 2px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+#slider .btn{
+    padding: 0.3 0.8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #111;
+    font-size: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #222;
+    opacity: .8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+    opacity: .8;
+}
+
+@media (min-width: 768px){
+    #slider .carousel-caption {
+        bottom: 15rem;
+    }
+
+    #slider .carousel-caption h5{
+        font-size: 4rem;
+        text-shadow: #000 2px 2px;
+    }
+
+    #slider .btn{
+        padding: 0.6 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    .carousel-indicators{
+        bottom: 7rem;
+    }
+}
+
+/* MINI BANNERS */
+
+#mini-banners {
+    margin-bottom: 4rem;
+}
+
+#mini-banners .card{
+    padding: 2rem .3rem;
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+#mini-banners i{
+    font-size: 4rem;
+}
+
+#mini-banners .card-tittel{
+    margin-bottom: 1.5em;
+}
+
+#mini-banners .btn{
+    margin-top: 1.5rem;
+    padding: .6rem 1.2rem;
+}
+
+@media (min-width: 768px){
+    #mini-banners{
+        margin-top: -6rem;
+    }
+}
+
+/* DESTAQUES */
+
+#featured-container {
+    margin-bottom: 4rem;
+}
+
+.tittle {
+    font-size: 1.75rem;
+    margin-bottom: 0.4rem;
+    position: relative;
+}
+
+.tittle::before {
+    width: 75px;
+    border-top: 4px solid #7a7a7a;
+    content: "";
+    position: absolute;
+    bottom: 2rem;
+}
